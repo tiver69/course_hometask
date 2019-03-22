@@ -3,8 +3,8 @@ package epam.hometask1;
 public class Task4 {
     public static void main(String[] args) {
         int a = 99, b = 9;
-        System.out.println("lin: " + cgd(a,b));
-        System.out.println("rec: " + recCgd(a,b));
+        System.out.println("lin:" + cgd(a,b));
+        System.out.println("rec:" + recCgd(a,b));
     }
 
     private static int recCgd(int a, int b){
