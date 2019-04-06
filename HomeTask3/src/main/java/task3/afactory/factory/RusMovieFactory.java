@@ -1,10 +1,10 @@
-package task3.factory;
+package task3.afactory.factory;
 
-import task3.Video;
-import task3.audio.Audio;
-import task3.audio.RusAudio;
-import task3.subtitles.RusSubtitles;
-import task3.subtitles.Subtitles;
+import task3.afactory.Video;
+import task3.afactory.audio.Audio;
+import task3.afactory.audio.RusAudio;
+import task3.afactory.subtitles.RusSubtitles;
+import task3.afactory.subtitles.Subtitles;
 
 public class RusMovieFactory implements MovieFactory {
     public Video getVideoFromArchive(String title) {

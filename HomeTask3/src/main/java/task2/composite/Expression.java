@@ -1,4 +1,4 @@
-package task2;
+package task2.composite;
 
 public abstract class Expression implements Math{
 

@@ -1,4 +1,4 @@
-package task3.audio;
+package task3.afactory.audio;
 
 public abstract class Audio {
 }

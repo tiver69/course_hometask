@@ -1,4 +1,4 @@
-package task3.subtitles;
+package task3.afactory.subtitles;
 
 public abstract class Subtitles {
 }

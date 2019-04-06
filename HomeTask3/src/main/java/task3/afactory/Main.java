@@ -1,4 +1,4 @@
-package task3;
+package task3.afactory;
 
 public class Main {
     public static void main(String[] args) {

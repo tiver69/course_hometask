@@ -1,10 +1,10 @@
-package task3.factory;
+package task3.afactory.factory;
 
-import task3.Video;
-import task3.audio.Audio;
-import task3.audio.EngAudio;
-import task3.subtitles.EngSubtitles;
-import task3.subtitles.Subtitles;
+import task3.afactory.Video;
+import task3.afactory.audio.Audio;
+import task3.afactory.audio.EngAudio;
+import task3.afactory.subtitles.EngSubtitles;
+import task3.afactory.subtitles.Subtitles;
 
 public class EngMovieFactory implements MovieFactory {
     public Video getVideoFromArchive(String title) {

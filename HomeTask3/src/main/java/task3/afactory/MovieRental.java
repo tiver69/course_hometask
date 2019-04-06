@@ -1,11 +1,11 @@
-package task3;
+package task3.afactory;
 
-import task3.audio.Audio;
-import task3.factory.EngMovieFactory;
-import task3.factory.MovieFactory;
-import task3.factory.RusMovieFactory;
-import task3.factory.UaMovieFactory;
-import task3.subtitles.Subtitles;
+import task3.afactory.factory.MovieFactory;
+import task3.afactory.audio.Audio;
+import task3.afactory.factory.EngMovieFactory;
+import task3.afactory.factory.RusMovieFactory;
+import task3.afactory.factory.UaMovieFactory;
+import task3.afactory.subtitles.Subtitles;
 
 public class MovieRental {
 

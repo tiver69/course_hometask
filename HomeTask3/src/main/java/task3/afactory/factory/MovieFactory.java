@@ -1,8 +1,8 @@
-package task3.factory;
+package task3.afactory.factory;
 
-import task3.Video;
-import task3.audio.Audio;
-import task3.subtitles.Subtitles;
+import task3.afactory.Video;
+import task3.afactory.audio.Audio;
+import task3.afactory.subtitles.Subtitles;
 
 public interface MovieFactory {
     Video getVideoFromArchive(String title);

@@ -1,7 +1,7 @@
-package task3;
+package task3.afactory;
 
-import task3.audio.Audio;
-import task3.subtitles.Subtitles;
+import task3.afactory.audio.Audio;
+import task3.afactory.subtitles.Subtitles;
 
 public class Movie {
     private Video videoTrack;

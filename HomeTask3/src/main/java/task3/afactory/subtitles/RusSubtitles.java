@@ -1,4 +1,4 @@
-package task3.subtitles;
+package task3.afactory.subtitles;
 
 public class RusSubtitles extends Subtitles {
     private String subtitlesFile = "rus.str";

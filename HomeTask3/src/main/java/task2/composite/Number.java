@@ -1,4 +1,4 @@
-package task2;
+package task2.composite;
 
 public class Number implements Math{
     int current;
