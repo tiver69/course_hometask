@@ -2,13 +2,13 @@ package task2.composite;
 
 public class Divide  extends Expression {
 
-    public Divide(Math leftOperand, Math rightOperand) {
+    public Divide(MyMath leftOperand, MyMath rightOperand) {
         super(leftOperand, rightOperand);
     }
 
-    public int result() {
-        if (getRightOperand().result() == 0) throw new IllegalArgumentException("Can't divide by 0!");
-        return (int)(getLeftOperand().result() / getRightOperand().result());
+    public int count() {
+        if (getRightOperand().count() == 0) throw new IllegalArgumentException("Can't divide by 0!");
+        return (int)(getLeftOperand().count() / getRightOperand().count());
     }
 
     @Override

@@ -1,20 +1,20 @@
 package task2.composite;
 
-public abstract class Expression implements Math{
+public abstract class Expression implements MyMath {
 
-    private Math leftOperand;
-    private Math rightOperand;
+    private MyMath leftOperand;
+    private MyMath rightOperand;
 
-    public Expression(Math leftOperand, Math rightOperand) {
+    public Expression(MyMath leftOperand, MyMath rightOperand) {
         this.leftOperand = leftOperand;
         this.rightOperand = rightOperand;
     }
 
-    public Math getLeftOperand() {
+    public MyMath getLeftOperand() {
         return leftOperand;
     }
 
-    public Math getRightOperand() {
+    public MyMath getRightOperand() {
         return rightOperand;
     }
 }

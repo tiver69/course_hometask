@@ -2,12 +2,12 @@ package task2.composite;
 
 public class Difference extends Expression {
 
-    public Difference(Math leftOperand, Math rightOperand) {
+    public Difference(MyMath leftOperand, MyMath rightOperand) {
         super(leftOperand, rightOperand);
     }
 
-    public int result() {
-        return (getLeftOperand().result() - getRightOperand().result());
+    public int count() {
+        return (getLeftOperand().count() - getRightOperand().count());
     }
 
     @Override

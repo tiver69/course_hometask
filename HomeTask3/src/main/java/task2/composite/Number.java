@@ -1,6 +1,6 @@
 package task2.composite;
 
-public class Number implements Math{
+public class Number implements MyMath {
     int current;
 
     public Number(int current) {
@@ -11,7 +11,7 @@ public class Number implements Math{
         return current;
     }
 
-    public int result() {
+    public int count() {
         return current;
     }
 
