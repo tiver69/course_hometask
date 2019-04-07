@@ -2,7 +2,7 @@ package task8;
 
 import task8.state.Grant;
 
-public class Main {
+public class MainState {
 
     public static void main(String[] args) {
         Grant grant = new Grant("Grant#1");

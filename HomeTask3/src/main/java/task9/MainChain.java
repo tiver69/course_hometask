@@ -2,7 +2,7 @@ package task9;
 
 import task9.chain.*;
 
-public class Main {
+public class MainChain {
     public static void main(String[] args) {
 
         Transfer internationalTransfer = new CheckForLimitsTransfer(100, 10000);

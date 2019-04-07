@@ -1,11 +1,12 @@
-package task6.strategy;
+package task6;
 
+import task6.strategy.GameCharacter;
 import task6.strategy.character.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class MainStrategy {
 
     public static void main(String[] args) {
 

@@ -4,7 +4,7 @@ import task10.memento.XOGame;
 
 import java.util.Scanner;
 
-public class Main {
+public class MainMemento {
 
     public static void main(String[] args) {
         XOGame game = new XOGame();

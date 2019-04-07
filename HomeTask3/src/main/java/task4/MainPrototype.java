@@ -1,6 +1,9 @@
-package task4.prototype;
+package task4;
 
-public class Main {
+import task4.prototype.Article;
+import task4.prototype.Wiki;
+
+public class MainPrototype {
     public static void main(String[] args) {
 
         Article article = Wiki.getArticle("Car");

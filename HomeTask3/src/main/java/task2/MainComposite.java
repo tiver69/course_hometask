@@ -1,6 +1,10 @@
-package task2.composite;
+package task2;
 
-public class Main {
+import task2.composite.Composition;
+import task2.composite.Number;
+import task2.composite.Sum;
+
+public class MainComposite {
     public static void main(String[] args) {
         Sum result = new Sum(
                 new Composition(new Sum(new Number(1), new Number(2)),new Number(4)),

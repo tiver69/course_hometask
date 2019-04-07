@@ -1,6 +1,10 @@
-package task7.observer;
+package task7;
 
-public class Main {
+import task7.observer.PostOffice;
+import task7.observer.Recipient;
+import task7.observer.SubscribeType;
+
+public class MainObserver {
     public static void main(String[] args) {
         PostOffice novaPoshta = new PostOffice();
 
